@@ -4,6 +4,7 @@ import './styles.css';
 
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         geeting='Nuestro Catalogo' 
       />
 
+      <ItemCount
+        stock= {10}
+        initial= {1}
+      />
     </>
   );
 }

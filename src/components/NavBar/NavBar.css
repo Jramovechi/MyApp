@@ -7,6 +7,11 @@
     min-height: 50px;
 }
 
+.Logo {
+    font-size: 30px;
+    color: chartreuse;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
