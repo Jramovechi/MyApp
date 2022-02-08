@@ -1,4 +1,12 @@
 .Title{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.ItemListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
