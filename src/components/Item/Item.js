@@ -3,8 +3,9 @@ import "./Item.css";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
+import ItemCount from '../ItemCount/ItemCount';
 
-const Item = ({ data }) => {
+const Item = ( { data } ) => {
     return (
         <div className="Item">
             <Card
@@ -18,6 +19,11 @@ const Item = ({ data }) => {
                 <Typography variant="body2" color="text.secondary">
                     {data.email}
                 </Typography>
+
+                <ItemCount
+                stock= {10}
+                initial= {1}
+                />
                 </CardContent>
             </Card>
         </div>
